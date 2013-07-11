@@ -32,4 +32,4 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #rosbuild_add_roslaunch_check(launch/navigation.test)
 #rosbuild_add_rostest(launch/navigation.test TIMEOUT 1000.0)
 
-rosbuildy_add_rostest(launch/sample_base.launch TIMEOUT 1000.0)
+rosbuild_add_rostest(launch/sample_base.launch TIMEOUT 1000.0)

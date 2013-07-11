@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-    <arg name="scenarioName" />
+    <arg name="scenarioName"      default="myScenarioTest"/>
     <arg name="navigation"        default="2dnav_ros_dwa" />
     <arg name="robot"             default="cob3-3" />
     <arg name="robot_env"         default="ipa-apartment" />
